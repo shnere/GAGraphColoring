@@ -1,0 +1,15 @@
+.evaluacion{
+	width: 310px;
+}
+
+.evaluacion .checkbox:first-child{
+	padding-left: 0px;
+}
+
+.checkbox input{
+	margin-right: 3px;
+}
+
+.btn-group{
+	margin-top: 5px;
+}
