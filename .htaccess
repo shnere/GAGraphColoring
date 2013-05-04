@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+Options -MultiViews
+RewriteEngine On
+
+RewriteCond $1 !^(index.php|static|robots.txt|cursos)
+RewriteRule ^(.*)$ /index.php/$1 [L]
