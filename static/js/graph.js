@@ -127,8 +127,8 @@
 		colores.push("yellow");
 		colores.push("green");
 		colores.push("grey");
-		colores.push("Coral");
 		colores.push("Crimson");
+		colores.push("Coral");
 		colores.push("DarkBlue");
 		colores.push("Indigo");
 		colores.push("LightSeaGreen");
@@ -141,11 +141,9 @@
 		sys.renderer = Renderer("#viewport");
 		
 		for(var i = 0; i < solution.length; i++){
-			console.log("Agregando nodo:"+i+" con color " + colores[solution[i]]);
+			//console.log("Agregando nodo:"+i+" con color " + colores[solution[i]]);
 			sys.addNode(i,{color:colores[solution[i]]});
 		}
-		
-		console.log(connections);
 		
 		for(i = 0; i < connections.length; i++){
 			sys.addEdge(connections[i][0],connections[i][1]);
