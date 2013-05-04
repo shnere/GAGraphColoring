@@ -3,10 +3,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>GA Graph Coloring</title>
+    <title>Genetic Algorithms, Graph Coloring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta name="author" 		content="Alan Rodríguez Romero">
+	<meta name="keywords" 		content="<?= $SYS_metaKeyWords; ?>">
+	<meta name="description" 	content="<?= $SYS_metaDescription; ?>">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -26,12 +27,6 @@
 	<script src="<?php echo base_url(); ?>static/js/arbor-tween.js"></script>
 	<script src="<?php echo base_url(); ?>static/js/GA_GraphColoring.js"></script>
 	<script src="<?php echo base_url(); ?>static/js/graph.js"></script>
-	<script>
-		// Contadores
-		var positivos = 0;
-		var negativos = 0;
-		var neutrales = 0;
-	</script>
   </head>
 
   <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -59,7 +54,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </a>
-       <a class="brand" href="">GA Graph Coloring</a>
+       <a class="brand" href="">Genetic Algorithms: Graph Coloring</a>
        <div class="nav-collapse" id="main-menu">
 
        </div>

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-//$config['base_url']	= 'http://analizadorapp.arodriguez.mx/';
+//$config['base_url']	= 'http://graphcoloring.arodriguez.mx/';
 $config['base_url']	= 'http://wt.temp/';
 
 /*
